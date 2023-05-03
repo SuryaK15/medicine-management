@@ -1,0 +1,16 @@
+{
+  "params":
+  {
+   "local_server": "True",
+    "local_uri": "mysql://root:@localhost/medical",
+    "proud_uri": "mysql://root:@localhost/medical",
+    "li_url":"https://www.linkedin.com/in/sarthak-jaryal-70304a217/",
+    "gh_url":"https://github.com/SuryaK15",
+    "blog_name": "DBMS Project",
+    "headname": "DEFENCE MEDICAL SUPPLY MANAGEMENT",
+    "user": "surya",
+    "password": "123",
+    "login_image": "aple.jpg"
+
+  }
+}

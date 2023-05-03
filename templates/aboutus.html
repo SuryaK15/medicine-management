@@ -1,0 +1,68 @@
+  
+{% extends "layout.html" %}
+{% block body %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{url_for('static',filename='img/about-bg.jpg')}}">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About us</h1>
+            <span class="subheading">This DBMS Project was Done by Sarthak and Surya. <br> Registration Number : 215805114 and 215805106. <p>CSE CORE</p> </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <div class="container my-3">
+        <h2>ABOUT Defence Management System</h2>
+        <hr>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How We started this Management System
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                    We thought that the great people who are serving the nation should be given the best of the best facilities. So we thought of making a management system for the defence people to order the required pharmaceutical. So that they can get the best of the best facilities, without any hassle. They can easily order the required pharmaceuticals and get it delivered to their doorstep.
+
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Who are the Owners Of Defence Management System?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                    Made by two Enthusiastic College Undergrads, Currently pursing their B Tech Degree from a Reputed college in Bangalore, Called Manipal Institute of Technology. Those students are Sarthak and Surya.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
+{% endblock %}
