@@ -4,7 +4,7 @@
 
 * **Name** - Working of a Website used for Management of Medicines  
 * **FrontEnd Language Used** - Bootstrap HTML, CSS, JavaScript. 
-* **BackEnd Language Used** -  Python (Flask), SQLAclchemy. 
+* **BackEnd Language Used** -  Python (Flask), SQLAlchemy. 
 * **Software Used** - XAMPP, PHP
 * **Author** - Surya Kiran and Sarthak Jaryal.
 
